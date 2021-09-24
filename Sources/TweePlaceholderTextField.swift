@@ -339,7 +339,7 @@ open class TweePlaceholderTextField: UITextField {
 		let trailing = bounds.width - placeholderRect.maxX
 		trailingPlaceholderConstraint?.constant = -trailing - placeholderInsets.right
         // bottom
-        bottomPlaceholderConstraint?.constant = -placeholderInsets.bottom + 14
+        bottomPlaceholderConstraint?.constant = -placeholderInsets.bottom + 20
         centerYPlaceholderConstraint?.constant = -placeholderInsets.bottom
 	}
 
